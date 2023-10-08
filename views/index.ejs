@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>SIT722 DevOps Glossary</title>
+  <style>
+    /* Additional CSS for grid lines */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    .small-column {
+      /* Style for the smaller 1st column */
+      width: 10%; /* Adjust the width as needed */
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>SIT722 DevOps Glossary</h1>
+  <h2>Welcome to my website showing a collection of DevOps terms and their brief descriptions</h2>
+  <table>
+    <thead>
+      <tr>
+        <th class="small-column">ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+    </thead>+
+    <tbody>
+        <tr>
+          <td>1.</td>
+          <td>DevOps</td>
+          <td>
+            For software development, DevOps is comparable to a team sport. The key is to have a close working relationship between those who create the program and those who ensure that it functions properly.
+          </td>
+          <td>
+             Wikipedia Contributors, “DevOps,” Wikipedia, Dec. 01, 2019. https://en.wikipedia.org/wiki/DevOps.
+            </td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Continous Integration</td>
+          <td>
+            Continuous Integration (CI) is a development technique in which frequent automatic integration of changed code into a shared repository is used. To ensure the quality of the code, each integration starts automated tests. Early in the development cycle, it assists in locating and fixing problems.
+          </td>
+          <td>
+            Atlassian (2019). Continuous integration vs. continuous delivery vs. continuous deployment. [online] Atlassian. Available at: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment.
+          </td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Continous Delivery</td>
+          <td>
+            The goal of Continuous distribution (CD), a branch of Continuous Integration (CI), is to automate the distribution of code to environments in production or staging. It seeks to guarantee that code is constantly in a deployable condition and prepared for deployment.
+          </td>
+          <td>
+            Atlassian, “Continuous integration vs. continuous delivery vs. continuous deployment,” Atlassian, 2019. https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment.
+          </td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Version Control System</td>
+          <td>
+            Multiple developers can effectively cooperate on a project with the help of a version control system (VCS), a technology that keeps track of changes to source code over time. It helps resolve conflicts and preserves a record of code revisions. A popular VCS is called Git.
+          </td>
+          <td>
+            Git, “Git - About Version Control,” Git-scm.com, 2019. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control.
+          </td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Containerization</td>
+          <td>
+            With the use of the technology known as containerization, a program and all of its dependencies can be packaged into a small, transportable container. When used with tools like Docker, containers provide consistency across several environments and facilitate quick deployment.
+          </td>
+          <td>
+            Docker, “What is a Container?,” Docker, 2023. https://www.docker.com/resources/what-container/.
+          </td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>Orchestration</td>
+          <td>
+            Applications running in containers are managed and coordinated automatically through orchestration to make sure they are effective and scale as required. Popular orchestration tool Kubernetes is widely used.
+          </td>
+          <td>
+            “Overview,” Kubernetes. https://kubernetes.io/docs/concepts/overview/
+          </td>
+        </tr>
+        <tr>
+          <td>7.</td>
+          <td>Infrastructure as code</td>
+          <td>
+            Using code and automation scripts, infrastructure as code (IaC) manages and provisionally deploys infrastructure (servers, networks, etc.). It makes infrastructure setup repeatable and consistent.
+          </td>
+          <td>
+            Amazon Web Services, Inc. (n.d.). What is DevOps? - DevOps Models Explained - Amazon Web Services (AWS). [online] Available at: https://aws.amazon.com/devops/what-is-devops/#Infrastructure_as_Code_IaC [Accessed 8 Oct. 2023].
+          </td>
+        </tr>
+        <tr>
+          <td>8.</td>
+          <td>Continnous Monitoring</td>
+          <td>
+            Real-time performance and infrastructure health are monitored continuously to determine how well they are working. It aids in problem detection, maintains the dependability of the system, and optimizes resource utilization.
+          </td>
+          <td>
+            Wikipedia. (2023). Continuous monitoring. [online] Available at: https://en.wikipedia.org/wiki/Continuous_monitoring [Accessed 8 Oct. 2023].
+          </td>
+        </tr>
+        <tr>
+          <td>9.</td>
+          <td>Microservices</td>
+          <td>
+            A large application is divided into a number of small, independent services called microservices. These services can be created, deployed, and scaled individually. It supports scalability and adaptability.
+          </td>
+          <td>
+            Richardson, C. (2017). Microservices.io. [online] microservices.io. Available at: https://microservices.io/.
+          </td>
+        </tr>
+        <tr>
+          <td>10.</td>
+          <td>Deployment Pipeline</td>
+          <td>
+            From development to production, code follows an automated process called a deployment pipeline. For a consistent release process, it typically consists of building, testing, and deploying stages.
+          </td>
+          <td>
+            “Pipeline,” Pipeline. https://www.jenkins.io/doc/book/pipeline/.
+          </td>
+        </tr>
+
+   
+    </tbody>
+  </table>
+</body>
+</html>
